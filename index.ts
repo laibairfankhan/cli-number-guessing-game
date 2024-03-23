@@ -2,6 +2,7 @@
 import inquirer from"inquirer";
 
 import chalk from "chalk";
+
 //Math.random generate a decimal value:
 //Math.floor use to convert  decimal value into integer:
 const randomNumber = Math.floor(Math.random() * 10 + 1);
@@ -26,5 +27,9 @@ if(anwers.userGuessedNumber === randomNumber){
 
  console.log (chalk.bgRed("Sorry,you gussed wrong number."));
  console.log(chalk.yellow(`The correct number was: ${randomNumber}`));
-
+ 
 }
+
+
+
+
