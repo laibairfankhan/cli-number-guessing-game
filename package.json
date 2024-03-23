@@ -1,6 +1,6 @@
 {
   "name": "n1r2-number-guessing-game",
-  "version": "20.1.1",
+  "version": "2.0.1",
   "description": "This is cli based guessing number",
   "main": "index.js",
   "type": "module",
