@@ -25,6 +25,6 @@ if(anwers.userGuessedNumber === randomNumber){
     
 
  console.log (chalk.bgRed("Sorry,you gussed wrong number."));
- console.log(chalk.yellow(`The correct number was: ${randomNumber}`))
+ console.log(chalk.yellow(`The correct number was: ${randomNumber}`));
 
 }
