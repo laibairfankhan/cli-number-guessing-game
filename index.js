@@ -13,7 +13,7 @@ const anwers = await inquirer.prompt([
         message: "please guess a number between 1-10",
     }
 ]);
-//Test condition:
+// Test condition to check if the user guessed the correct number:
 if (anwers.userGuessedNumber === randomNumber) {
     console.log(chalk.bgGreenBright("congratulation! you guessed right number."));
 }
