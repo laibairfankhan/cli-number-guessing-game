@@ -6,7 +6,7 @@ import chalk from "chalk";
 //Math.floor use to convert  decimal value into integer:
 const randomNumber = Math.floor(Math.random() * 10 + 1);
 
-console.log(chalk.bgBlueBright(`\n\n"wellcome to number guessing game."\n\n`));
+console.log(chalk.bgCyanBright(`\n\n"wellcome to number guessing game."\n\n`));
 
 const anwers = await inquirer.prompt([
     //Take a user number:
